@@ -9,7 +9,6 @@ void binary_tree_delete(binary_tree_t *tree)
 	 *  If the tree is not null, it recursively deletes the left and right
 	 *  subtree then frees the memory using the free() */
 	if (tree != NULL)
-		deleteT
 	{
 		binary_tree_delete(tree->left);
 		binary_tree_delete(tree->right);
